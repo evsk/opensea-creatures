@@ -1,6 +1,6 @@
 {
   "name": "opensea-creatures",
-  "version": "1.0.0",
+  "version": "1.22.4",
   "description": "OpenSea's smart contracts, including ERC721 templates, factories, and the storefront builder.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "truffle-assertions": "^0.9.2",
     "truffle-flattener": "^1.4.2",
     "truffle-hdwallet-provider": "1.0.5",
-    "web3": "^1.0.0-beta.34"
+    "web3": "^1.0.0-beta.34",
+    "yarn": "^1.22.4"
   },
   "engines": {
     "node": "12.18.x",
