@@ -12,7 +12,8 @@ contract Creature is ERC721Tradable {
         public
         ERC721Tradable("Creature", "OSC", _proxyRegistryAddress)
     {}
-
+    
+    //TODO - update this uri with new metadata link
     function baseTokenURI() public pure returns (string memory) {
         return "https://creatures-api.opensea.io/api/creature/";
     }
